@@ -1,8 +1,6 @@
  # Authentication App
 
-Welcome to this project! This version follows a structure inspired by
-one of the largest companies in Latin America
-(at least within my team), and I want to thank you for your interest. Now, let’s move on to the development instructions.
+Welcome to this project! I want to thank you for your interest. Now, let’s move on to the development instructions.
 
 ## Running in Development
 
