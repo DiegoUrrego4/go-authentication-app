@@ -1,17 +1,12 @@
-# Authentication App
+ # Authentication App
 
-## Introduction - Project Brief
+Welcome to this project! I want to thank you for your interest. Now, let’s move on to the development instructions.
 
-This project showcases a simple authentication app built using Go. It implements JSON Web Tokens (JWT) and follows the hexagonal architecture pattern, with a relational database connection and routing handled by Go’s native net/http package. The aim is to adhere to good coding practices while exploring different styles of implementation. The project includes branches featuring:
+## Running in Development
 
-	•	Relational database connections
-	•	Event-Driven Design
-	•	Queues like RabbitMQ and/or Kafka
-	•	Hexagonal architecture
-	•	Middlewares
-	•	Database migrations
-	•	And much more…
-
-The main branch has been left empty to avoid influencing your decision on which approach is best. That will depend on your project’s requirements, your understanding of the architecture, and your overall goals.
-
-**PLEASE** feel free to contact me or submit a PR if you have suggestions or improvements for this project. Thank you so much for being here, and I hope you find this project useful!
+1.	Locate the ```.env-template``` file and rename it to ```.env```.
+2. Update the ```.env``` file with your own credentials. Feel free to use any values you prefer.
+3. Ensure that Docker (or a similar containerization tool) is installed on your machine.
+4. If everything is set up correctly, start the development database by running:
+```docker-compose up -d```
+5. Connect to the database using your preferred database management tool.
